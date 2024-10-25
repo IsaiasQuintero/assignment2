@@ -1,0 +1,56 @@
+Date where I went through the Git Lab Tutorials: October 24th, 2024
+Date when I set up my GitHub account: I'm pretty sure it was October 24th as well, but since my account seems to 
+have existed already (with my FSU email) then it might have been a past semester, but I did not use GitHub before this.
+
+5.1: 
+C:\Users\Kingterow\Documents\FSU\Classes\Fall 2024\Soft Eng\assignment2>git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+
+5.2:
+Esteban Parras has made 6 commits 
+I have made 3 commits 
+I used git shortlog
+
+5.3: 
+At 23:55pm, I used the git log command 
+
+5.4: 
+Branches allow you to develop features, fix bugs, 
+or safely experiment with new ideas in a contained area of your repository.
+
+5.5:
+ git status gave information about the current working directory, 
+ git log will display the commit history for your branch
+ 
+5.6:
+git show 
+ 
+5.7:
+git log --grep="file"
+
+5.8:
+(I) Inheritance: This allows a class to "inherit" properties and methods from another class, 
+so you can reuse code and create a natural hierarchy. 
+Think of it as passing down traits from a parent to a child.
+
+(II) Polymorphism: This lets objects of different classes be treated as if they’re from the same class. 
+It’s like having one action (like draw()) but different results, depending on the object (like Circle or Square).
+
+(III) Encapsulation: This is about keeping data safe by restricting direct access to it. 
+We wrap data in methods, so instead of touching data directly, 
+we use getters and setters to interact with it safely.
+
+5.9:
+Dictator and Lieutenants: Centralized control with a clear hierarchy (Dictator has the final merge).
+Integration Manager: Shared, collaborative setup (Integration Manager reviews and merges).
+
+5.10:
+In a team of 100 developers, the Dictator and Lieutenants workflow reduces bottlenecks and improves scalability 
+by allowing Lieutenants to manage smaller teams and branches independently. 
+This structure provides a clear hierarchy for handling contributions before they reach the Dictator 
+for final review, making it easier to coordinate large projects, maintain code quality, 
+and minimize conflicts—something a Centralized workflow struggles with,
+as it relies on a single maintainer and quickly becomes inefficient with many contributors.
